@@ -12,15 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".RelativeLayoutActivity" />
-        <activity android:name=".LinearLayoutActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".LinearLayoutActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FrameLayoutActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".FrameLayoutActivity" />
+        <activity android:name=".ConstraintsLayoutActivity">
+
+        </activity>
     </application>
 
 </manifest>
